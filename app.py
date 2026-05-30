@@ -42,7 +42,7 @@ st.title("📘 AI Document Summarizer + Chat with PDF")
 def load_models():
     # Summary Model
     summarizer = pipeline(
-        task="text-generation",
+        task="text2text-generation",
         model="google/flan-t5-base"
     )
 
