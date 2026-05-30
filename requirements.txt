@@ -1,0 +1,8 @@
+streamlit
+transformers==4.38.2
+sentence-transformers
+PyPDF2
+scikit-learn
+torch
+accelerate
+sentencepiece
